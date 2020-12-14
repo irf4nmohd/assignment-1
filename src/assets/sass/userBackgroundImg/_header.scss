@@ -1,0 +1,21 @@
+.bg {
+	height: 75vh;
+	display: grid;
+	grid-template-rows: repeat(6, 1fr);
+	grid-template-columns: repeat(8, 1fr);
+	&_img {
+		grid-row: 1/-1;
+		grid-column: 1/-1;
+		height: 100%;
+		width: 100%;
+	}
+	@include respond(tab-land) {
+		height: 60vh;
+	}
+	@include respond(tab-port) {
+		height: 55vh;
+	}
+	@include respond(phone) {
+		height: 35vh;
+	}
+}

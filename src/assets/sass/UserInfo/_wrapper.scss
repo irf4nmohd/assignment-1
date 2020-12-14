@@ -1,0 +1,6 @@
+.container_user-info {
+	display: grid;
+	grid-template-columns: minmax(min-content, 1fr);
+	justify-content: center;
+	gap: 3.5rem 0;
+}

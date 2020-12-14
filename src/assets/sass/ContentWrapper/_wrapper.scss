@@ -1,0 +1,14 @@
+.container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 5rem 0;
+	margin: 0 10rem;
+	@include respond(tab-port) {
+		grid-template-columns: 1fr;
+		gap: 2rem 0;
+	}
+	@include respond(phone) {
+		justify-content: center;
+		margin: 0 0;
+	}
+}

@@ -1,0 +1,22 @@
+//media query
+@import "../MediaQueryManager/mediaQuery";
+
+//global
+@import "../Global/global";
+
+//pageheader
+@import "../userBackgroundImg/header";
+
+//body
+@import "../ContentWrapper/wrapper";
+
+//UserInfo of the page.
+@import "../UserInfo/wrapper";
+@import "../UserInfo/Bio/bio";
+@import "../UserInfo/Skills/skills";
+@import "../UserInfo/Summary/summary";
+
+//UserBio of the page.
+@import "../UserBio/wrapper";
+@import "../UserBio/Contact/contact";
+@import "../UserBio/Profile/profile";

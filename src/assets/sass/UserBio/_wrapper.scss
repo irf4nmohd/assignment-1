@@ -1,0 +1,8 @@
+.container_user-bio {
+	display: grid;
+	grid-template-columns: min-content;
+	justify-content: center;
+	gap: 5rem 0;
+	grid-column: 1/2;
+	margin-top: -15rem;
+}
